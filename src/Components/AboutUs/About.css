@@ -1,0 +1,172 @@
+.about__container {
+    width: 100%;
+    height: 655px;
+    background: linear-gradient(
+        to bottom,
+        #FF9B40 2%,  
+        #484848 100%   
+    );
+    position: relative;
+}
+
+
+
+.decoration1 {
+    position: absolute;
+    top: 68%;
+    left: 4%;
+}
+
+.decoration2 {
+    position: absolute;
+    top: 30%;
+    right: 4%;
+}
+
+.decoration3,
+.decoration4 {
+    display: none;
+}
+
+.about__text img {
+    margin-top: -70px;
+    width: 110%;
+}
+
+.about__text {
+    padding-top: 10%;
+    z-index: 999;
+    width: 900px;
+}
+
+.about__text1 {
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.about__text2 {
+    margin-top: -60px;
+    color: white;
+    font-family: var(--fontAr);
+    font-size: 15pt;
+    text-align: right;
+}
+
+.about__text1_span {
+    font-size: 24pt;
+}
+
+.about__text2_span {
+    font-size: 23pt;
+    font-family: var(--fontAr);
+}
+
+@media only screen and (max-width: 992px) {
+
+    .about__container {
+        height: 474px;
+    }
+    .decoration1,
+    .decoration2 {
+        display: none;
+    }
+    .decoration3,
+    .decoration4 {
+        position: absolute;
+        display: block;
+    }
+    .decoration3{
+        top: 75%;
+        left: 4%;
+    }
+    .decoration4{
+        top: 30%;
+        right: 4%;
+    }
+    .about__text {
+        padding-top: 5%;
+        z-index: 999;
+        width: 85%;
+    }
+    .about__text1 {
+        font-size: 12pt;
+        line-height: 23px;
+        margin-bottom: 40px;
+    }
+    .about__text1_span {
+        font-size: 18pt;
+    }
+    .about__text2 {
+        margin-top: -20px;
+        font-size: 10pt;
+        line-height: 23px
+    }
+    .about__text2_span {
+        font-size: 12pt;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .about__content {
+    position: relative;
+    justify-items: center;
+    align-items: center;
+}
+
+.about__bg__desktop {
+    transition: 0.5s;
+}
+
+.about__bg__mobile {
+    display: none;
+}
+
+.about__us{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+.about__text1 {
+    font-family: var(--fontEn);
+    font-size: 18pt;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.about__text2 {
+    font-family: var(--fontAr);
+    font-size: 12pt;
+    color: white;
+}
+
+@media screen and (max-width : 992px) {
+    .about__bg__mobile {
+        display: block;
+        height: 474px;
+        width: 100% ;
+        transition: 0.5s;
+    }
+    .about__bg__desktop {
+        display: none;
+
+    }
+} */

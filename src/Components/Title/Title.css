@@ -1,0 +1,34 @@
+.title__container {
+    justify-items: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.titleEn{
+    font-family: var(--fontEn);
+    font-size: 28pt;
+    font-weight: bold;
+    color: var(--textColor);
+}
+
+.titleAr{
+    margin-top: -15px;
+    font-family: var(--fontAr);
+    font-size: 20pt;
+    color: var(--secondaryColor);
+}
+
+@media screen and (max-width: 992px) {
+    .title__container{
+        padding: 40px !important;
+    }
+    .titleEn{
+        font-family: var(--fontEn);
+        font-size: 18pt;
+    }
+    
+    .titleAr{
+        font-family: var(--fontAr);
+        font-size: 12pt;
+    }
+}

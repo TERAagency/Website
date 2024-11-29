@@ -1,0 +1,10 @@
+.footer__container{
+    margin-top: 50px;
+    background: linear-gradient(
+        to bottom,
+        #484848 0%,  
+        #282828 100%   
+    );
+    color: white;
+    height: 100px;
+}

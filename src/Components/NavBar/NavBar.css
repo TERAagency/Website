@@ -1,0 +1,88 @@
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	padding: 0 5rem;
+	color: var(--textColor);
+    
+}
+
+.tera__logo {
+    width: 60px;
+}
+
+nav a {
+	margin: 0 2rem;
+	color: var(--textColor);
+	text-decoration: none;
+    font-size: 16pt;
+    font-weight: 700;
+    transition: 0.7s all;
+	cursor: pointer;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+    display: none;
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+        display: block;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 40%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--textColor);
+        color: white !important;
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+        z-index: 999;
+	}
+
+	nav .nav-close-btn {
+        color: white;
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+        color: white;
+	}
+	.tera__logo {
+		width: 50px;
+	}
+}
+
